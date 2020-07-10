@@ -1,0 +1,34 @@
+<div layout:decorator="layout">
+	<th:block layout:fragment="layout-content">
+		<link rel="stylesheet" th:href="@{/css/recruit1.css}" />
+		<div class="gtco-section gtco-services">
+			<div class="gtco-container main">
+				<div class="row gtco-heading">
+					<div class="col-xs-12 text-left">
+						<h2>採用情報</h2>
+					</div>
+				</div>
+				<div class="box-display">
+					<div class="inexperienced-box">
+						<a th:href="@{/inexperienced}"></a>
+						<div class="beginner-img">
+							<img src=images/beginner.jpg class="image-size">
+							<p class="font-form">未経験から安心して成長、</p>
+							<p class="font-position">生涯活躍できるエンジニアへ</p>
+						</div>
+						<h3 class="h3-position">未経験者採用</h3>
+						<p class="p-display">未経験から安心して成長、生涯活躍できるエンジニアへ</p>
+					</div>
+					<div class="experienced-box">
+						<a th:href="@{/experienced}"></a> <img src=images/career.jpg
+							class="experienced-image-size">
+						<div>
+						<h3 class="experienced-h3-position">経験者採用</h3>
+						<p class="experienced-p-position">オイスターワールドで、新たな挑戦を</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</th:block>
+</div>
