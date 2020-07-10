@@ -36,10 +36,10 @@ public class ThymeleafController {
 		return "member";
 	}
 
-//	@RequestMapping("/recruit")
-//	public String recruit() {
-//		return "recruit";
-//	}
+	@RequestMapping("/recruit")
+	public String recruit() {
+		return "recruit";
+	}
 
 	@RequestMapping("/inexperienced")
 	public String inexperienced() {
@@ -53,6 +53,16 @@ public class ThymeleafController {
 	@RequestMapping("/recruit1")
 	public String recruit1() {
 		return "recruit1";
+	}
+
+	@RequestMapping("/recruit2")
+	public String recruit2() {
+		return "recruit2";
+	}
+
+	@RequestMapping("/test")
+	public String test() {
+		return "test";
 	}
 
 }
