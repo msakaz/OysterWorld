@@ -36,9 +36,23 @@ public class ThymeleafController {
 		return "member";
 	}
 
-	@RequestMapping("/recruit")
-	public String recruit() {
-		return "recruit";
+//	@RequestMapping("/recruit")
+//	public String recruit() {
+//		return "recruit";
+//	}
+
+	@RequestMapping("/inexperienced")
+	public String inexperienced() {
+		return "inexperienced";
+	}
+
+	@RequestMapping("/experienced")
+	public String experienced() {
+		return "experienced";
+	}
+	@RequestMapping("/recruit1")
+	public String recruit1() {
+		return "recruit1";
 	}
 
 }
