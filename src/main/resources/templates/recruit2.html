@@ -1,0 +1,45 @@
+<div layout:decorator="layout">
+	<th:block layout:fragment="layout-content">
+		<link rel="stylesheet" th:href="@{/css/recruit2.css}">
+
+		<div class="gtco-section gtco-services">
+			<div class="gtco-container main">
+				<div class="row gtco-heading">
+					<div class="col-xs-12 text-left">
+						<h2>採用情報</h2>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-10 col-sm-10 inexperienced">
+					<div class="box">
+						<a th:href="@{/inexperienced}" class="link"></a>
+
+						<div class="logo-position">
+							<div class="recruit-item-one">
+								<img src="images/top_logo.jpg"> <img
+									src="images/top_name.jpg">
+							</div>
+						</div>
+						<div class="font-position">
+						<h3>未経験者採用</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-10 col-sm-10 experienced">
+					<div class="box-2">
+						<a th:href="@{/experienced}" class="link"></a>
+
+						<div class="logo-position-two">
+							<div class="recruit-item-two">
+								<img src="images/top_logo.jpg"> <img
+									src="images/top_name.jpg">
+							</div>
+						</div>
+						<div class="font-position-two">
+						<h3>経験者採用</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</th:block>
+</div>

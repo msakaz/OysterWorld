@@ -1,0 +1,99 @@
+.box {
+	position: relative;
+	border-top: 1px solid rgb(90, 172, 230);
+	border-left: 1px solid rgb(90, 172, 230);
+	border-right: 1px solid rgb(90, 172, 230);
+	border-bottom: 1px solid rgb(90, 172, 230);
+	background-color: white;
+}
+
+.inexperienced .box {
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.link {
+	display:inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.link:hover {
+	background-color:white;
+	opacity: 0.5;
+}
+
+.inexperienced .logo-position {
+	display: flex;
+}
+
+.inexperienced .font-position {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.recruit-item-one img {
+	max-width: 20%;
+	height: auto;
+}
+
+.inexperienced .recruit-item-one {
+	margin: auto;
+	text-align: center;
+}
+
+.font-position h3 {
+	margin-top: 20px;
+	font-size: 2vmax;
+}
+
+.box-2 {
+	position: relative;
+	border-top: 1px solid rgb(90, 172, 230);
+	border-left: 1px solid rgb(90, 172, 230);
+	border-right: 1px solid rgb(90, 172, 230);
+	border-bottom: 1px solid rgb(90, 172, 230);
+	background-color: white;
+}
+
+.experienced .box-2 {
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.box-2 a {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.experienced .logo-position-two {
+	display: flex;
+}
+
+.experienced .font-position-two {
+	margin-top: 10px;
+	text-align: center;
+}
+
+.recruit-item-two img {
+	max-width: 20%;
+	height: auto;
+}
+
+.experienced .recruit-item-two {
+	margin: auto;
+	text-align: center;
+}
+
+.font-position-two h3 {
+	margin-top: 20px;
+	font-size: 2vmax;
+}
