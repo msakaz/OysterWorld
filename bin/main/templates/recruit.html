@@ -1,7 +1,7 @@
 <div layout:decorator="layout">
 	<th:block layout:fragment="layout-content">
-		<link rel="stylesheet" media="(min-width: 640px)" th:href="@{/css/recruitPc.css}">
-		<link rel="stylesheet" media="(max-width: 640px)" th:href="@{/css/recruitMobile.css}">
+		<link rel="stylesheet" media="(min-width: 826px)" th:href="@{/css/recruitPc.css}">
+		<link rel="stylesheet" media="(max-width: 826px)" th:href="@{/css/recruitMobile.css}">
 
 		<div class="gtco-section gtco-services">
 			<div class="gtco-container main">
@@ -28,7 +28,10 @@
 						<hr class="my-4">
 						<p class="text-edit-two">ゲーム開発・銀行系システム開発など</p>
 						<p class="text-edit-two">あなたの経験を活かしてみませんか。</p>
-						<a th:href="@{/experienced}"><button class="button-two"><span>経験者採用情報</span></button></a>
+						<div class="experienced-display">
+						<a th:href="@{/experienced}">
+						<button class="button-two"><span>経験者採用情報</span></button></a>
+						</div>
 					</div>
 				</div>
 			</div>

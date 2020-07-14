@@ -1,7 +1,15 @@
-@media print, screen and (min-width: 640px) {
-	.recruit-img {
-	height: 250px;
-	width: 100%;
+@media
+print
+,
+screen
+and
+(min-width:
+826px)
+{
+
+.recruit-img {
+	height:250px;
+	width:100%;
 	object-fit: cover;
 }
 
@@ -111,8 +119,7 @@
 	right: 0;
 }
 
-.text-edit {
-	margin-right {
-	}
+.text-edit {margin-right {
+
 }
 }
