@@ -1,14 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+.inexperienced .inexperienced-box {
+	margin:auto;
+	margin-bottom:20px;
+}
+
+.experienced .experienced-box{
+	margin:auto;
+	margin-bottom:20px;
+}
 
 .image-size {
 	position: absolute;
 	top: 126px;
-	bottom:0;
+	bottom: 0;
 	left: -13px;
 	right: 0;
 	margin: auto;
-	width: 301px;
+	width: 300px;
 	height: 150px;
 	object-fit: cover;
 }
@@ -29,26 +38,29 @@
 	font-size: 11px;
 }
 
+.font-form p {
+	margin-left: -10px;
+}
+
 .font-position {
 	font-family: 'Noto Serif JP', sans-serif;
-	margin-top:30px;
-	margin-left:-10px;
 	color: #111111;
 	font-size: 11px;
 }
 
+.font-position p {
+	margin-top: 20px;
+	margin-left: -10px;
+}
 
 .inexperienced-box {
 	position: relative;
 	padding: 10px;
-	margin-left: 100px;
-	margin-bottom: 10px;
 	border-left: 3px solid white;
 	border-right: 3px solid white;
 	border-bottom: 3px solid white;
-	width: 301px;
+	width: 300px;
 	height: 300px;
-	margin-left: 99px;
 	background-color: white;
 }
 
@@ -58,7 +70,7 @@
 	color: #BBBBBB;
 }
 
-.h3-position {
+.h3-position h3 {
 	font-size: 16px;
 	font-family: 'Noto Serif JP', sans-serif;
 	color: #BBBBBB;
@@ -82,7 +94,7 @@
 .experienced-image-size {
 	position: absolute;
 	top: 0;
-	bottom:148px;
+	bottom: 148px;
 	left: -3px;
 	right: 0;
 	margin: auto;
@@ -94,14 +106,11 @@
 .experienced-box {
 	position: relative;
 	padding: 10px;
-	margin-left: 100px;
-	margin-bottom: 10px;
 	border-left: 3px solid white;
 	border-right: 3px solid white;
 	border-bottom: 3px solid white;
 	width: 301px;
 	height: 300px;
-	margin-left: 99px;
 	background-color: white;
 	display: flex;
 }
@@ -124,7 +133,7 @@
 	display: flex;
 }
 
-.experienced-h3-position {
+.experienced-h3-position h3 {
 	font-size: 16px;
 	font-family: 'Noto Serif JP', sans-serif;
 	color: #BBBBBB;
