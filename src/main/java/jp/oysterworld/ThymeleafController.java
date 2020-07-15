@@ -50,19 +50,24 @@ public class ThymeleafController {
 	public String experienced() {
 		return "experienced";
 	}
-	@RequestMapping("/recruit1")
-	public String recruit1() {
-		return "recruit1";
-	}
-
 	@RequestMapping("/recruit2")
 	public String recruit2() {
 		return "recruit2";
 	}
 
+	@RequestMapping("/recruit3")
+	public String recruit3() {
+		return "recruit3";
+	}
+
 	@RequestMapping("/test")
 	public String test() {
 		return "test";
+	}
+
+	@RequestMapping("/color")
+	public String color() {
+		return "color";
 	}
 
 }
