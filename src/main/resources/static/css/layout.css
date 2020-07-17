@@ -2,8 +2,6 @@
   max-width: 992px;
   position: relative;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .gtco-heading {
@@ -41,5 +39,9 @@
 }
 .gtco-section.gtco-gray {
   background: #f6f6f6;
+}
+
+.row {
+	margin-left:-7px;
 }
 
