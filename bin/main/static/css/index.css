@@ -87,7 +87,7 @@
 
 .btn4 {
 	margin-top: 5px;
-	height: 354px;
+	height: 364px;
 	margin-left: -25px;
 }
 
@@ -113,8 +113,13 @@
 	.item {
 		margin-top: 5px;
 	}
+
+	.left {
+		margin-left:5px;
+	}
+
 	.right {
-		margin-left: 0;
+		margin-left: 5px;
 	}
 	.btn1 {
 		margin-top: 5px;
