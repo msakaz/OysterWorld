@@ -20,18 +20,22 @@
 }
 
 .btn1 {
-	background-color: rgba(242, 173, 46, 1);
+	position: relative; background-color : rgba( 242, 173, 46, 1);
 	border: 3px solid #fff;
 	box-shadow: 0px 1px 4px #fff inset;
 	align-items: center;
 	margin-left: -25px;
 	height: 45px;
+	background-color: rgba(242, 173, 46, 1);
 }
 
-.bt1 {
-	float: left;
-	margin-top: -3px;
-	margin-left: 55px;
+.btn1 a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
 }
 
 .btn1:hover {
@@ -39,7 +43,7 @@
 	transition: all 0.5s;
 }
 
-.btn1 a {
+.btn1 h2 {
 	color: #fff;
 	display: block;
 	font-size: 30px;
@@ -53,6 +57,7 @@
 }
 
 .btn2 {
+	position: relative;
 	background-color: rgba(98, 170, 35, 1);
 	border: 3px solid #fff;
 	box-shadow: 0px 1px 4px #fff inset;
@@ -61,10 +66,33 @@
 	height: 45px;
 }
 
-.bt2 {
-	float: left;
-	margin-top: -3px;
-	margin-left: 55px;
+.btn2 a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+}
+
+.btn-position {
+	text-align: center;
+	margin-top: -12px;
+}
+
+.btn-position h2:after {
+	height: 0;
+}
+
+.btn-position img {
+	margin-top: -18px;
+}
+
+.btn2 h2 {
+	color: #fff;
+	display: block;
+	font-size: 30px;
+	text-decoration: none;
 }
 
 .btn2:hover {
@@ -113,7 +141,6 @@
 	.item {
 		margin-top: 5px;
 	}
-
 	.btn1 {
 		margin-top: 5px;
 		margin-left: 0;
@@ -124,6 +151,6 @@
 	}
 	.btn4 {
 		margin-left: 0;
-		margin-bottom:5px;
+		margin-bottom: 5px;
 	}
 }
