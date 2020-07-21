@@ -52,4 +52,6 @@
   display: table-cell;
 }
 
-
+.services h2 {
+	margin-left:10px;
+}
