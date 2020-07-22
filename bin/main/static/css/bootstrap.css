@@ -912,7 +912,7 @@ pre code {
   margin-right: -6px;
 }
 .row:before, .row:after {
-  content: " ";
+  /* content: " "; */
   display: table;
 }
 .row:after {
