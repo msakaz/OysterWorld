@@ -187,11 +187,13 @@ background: linear-gradient(to right, rgb(90, 172, 230), transparent);
   text-decoration: none;
 }
 
+.row-pb-md {
+   padding-bottom: 38px !important;
+}
 
 @media screen and (max-width: 768px) {
   .mt-md {
     margin-top: 10px;
   }
 }
-
 
