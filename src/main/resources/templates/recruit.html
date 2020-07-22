@@ -1,7 +1,6 @@
 <div layout:decorator="layout">
 	<th:block layout:fragment="layout-content">
-		<link rel="stylesheet" media="(min-width: 826px)" th:href="@{/css/recruitPc.css}">
-		<link rel="stylesheet" media="(max-width: 826px)" th:href="@{/css/recruitMobile.css}">
+		<link rel="stylesheet" th:href="@{/css/recruit.css}">
 
 		<div class="gtco-section gtco-services">
 			<div class="gtco-container main">
@@ -9,32 +8,42 @@
 					<div class="col-xs-12 text-left">
 						<h2>採用情報</h2>
 						<img src="images/recruitImg.jpg" alt="" class="recruit-img">
-					</div>
-				</div>
-				<div class="wrap">
-					<div class="jumbotron">
-						<div class="display-edit">
-							<h3 class="display-4">未経験者積極採用</h3>
+						<div class="col-xs-12 col-sm-12 col-md-6 box-position1">
+							<div class="wrap">
+								<div class="jumbotron frame1">
+									<div class="display-edit">
+										<h1 class="display-4">未経験者積極採用</h1>
+									</div>
+									<hr class="my-4">
+									<p class="text-edit">未経験から着実に成長できる</p>
+									<p class="second-text-edit">環境が整っています。</p>
+									<div class="inexperienced-display">
+										<a th:href="@{/inexperienced}"><button class="button-one">
+												<span>未経験者採用情報</span>
+											</button></a>
+									</div>
+								</div>
+							</div>
 						</div>
-						<hr class="my-4">
-						<p class="text-edit">未経験から着実に成長できる</p>
-						<p class="second-text-edit">環境が整っています。</p>
-						<div class="inexperienced-display">
-						<a th:href="@{/inexperienced}"><button class="button-one"><span>未経験者採用情報</span></button></a>
-						</div>
-					</div>
-					<div class="jumbotron">
-						<h3 class="display-4">今までの経験＋新しい挑戦もできる</h3>
-						<hr class="my-4">
-						<p class="text-edit-two">ゲーム開発・銀行系システム開発など</p>
-						<p class="text-edit-two">あなたの経験を活かしてみませんか。</p>
-						<div class="experienced-display">
-						<a th:href="@{/experienced}">
-						<button class="button-two"><span>経験者採用情報</span></button></a>
+						<div class="col-xs-12 col-sm-12 col-md-6 box-position2">
+							<div class="jumbotron frame2">
+								<div class="display-edit">
+									<h1>今までの経験＋新しい挑戦もできる</h1>
+									<hr class="my-4">
+									<p class="text-edit-two">ゲーム開発・銀行系システム開発など</p>
+									<p class="text-edit-two">あなたの経験を活かしてみませんか。</p>
+									<div class="experienced-display">
+										<a th:href="@{/experienced}">
+											<button class="button-two">
+												<span>経験者採用情報</span>
+											</button>
+										</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 	</th:block>
 </div>

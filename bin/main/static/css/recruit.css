@@ -1,27 +1,36 @@
-@media
-print
-,
-screen
-and
-(min-width:
-826px)
-{
-
 .recruit-img {
 	height:250px;
 	width:100%;
 	object-fit: cover;
 }
 
-.wrap {
-	display: flex;
-	margin-right: 10px;
+.frame1 {
+	color: #FFF;
+	height: 300px;
+	text-align:center;
+	background-color: #FFFFFF;
+	font: #000000;
 }
 
-.jumbotron {
+.box-position1 {
+	padding:0;
+	margin-top:30px;
+}
+
+.box-position2 {
+	padding:0;
+	margin-top:30px;
+}
+
+.display-edit h1 {
+	color:black;
+	font-size:25px;
+}
+
+.frame2 {
 	color: #FFF;
-	width: 50%;
 	height: 300px;
+	text-align:center;
 	background-color: #FFFFFF;
 	font: #000000;
 }
@@ -29,22 +38,6 @@ and
 .jumbotron p {
 	color: #000;
 	font-size: 18px;
-}
-
-.display-edit {
-	margin-left: 70px;
-}
-
-.text-edit {
-	margin-left: 70px;
-}
-
-.second-text-edit {
-	margin-left: 70px;
-}
-
-.inexperienced-display {
-	margin-left: 70px;
 }
 
 .button-one {
@@ -117,9 +110,4 @@ and
 .button-two:hover span:after {
 	opacity: 1;
 	right: 0;
-}
-
-.text-edit {margin-right {
-
-}
 }
