@@ -332,13 +332,13 @@
 #gtco-offcanvas {
 	position: absolute;
 	z-index: 1901;
-	width: 270px;
+	width: 200px;
 	background: black;
 	top: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
-	padding: 45px 40px 40px 40px;
+	padding: 4px 10px;
 	overflow-y: auto;
 	display: none;
 	-moz-transform: translateX(270px);
