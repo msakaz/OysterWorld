@@ -8,7 +8,7 @@
 
 .frame1 {
 	color: #FFF;
-	height: 300px;
+	height: 350px;
 	text-align: center;
 	background-color: #FFFFFF;
 	font: #000000;
@@ -26,13 +26,13 @@
 
 .display-edit h1 {
 	color: black;
-	font-size: 25px;
+	font-size: 22px;
 	font-family: 'Noto Sans JP', sans-serif;
 }
 
 .frame2 {
 	color: #FFF;
-	height: 300px;
+	height: 350px;
 	text-align: center;
 	background-color: #FFFFFF;
 	font: #000000;
@@ -40,7 +40,7 @@
 
 .jumbotron p {
 	color: #000;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 .button-one {
@@ -117,4 +117,12 @@
 
 .display-edit  hr {
     border-top-color:#d5d5d5;;
+}
+
+.inexperienced-display {
+	margin-top:10px;
+}
+
+.experienced-display {
+	margin-top:10px;
 }
