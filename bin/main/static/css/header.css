@@ -10,7 +10,6 @@
 
 .offcanvas #page {
 	overflow: hidden;
-	position: absolute;
 }
 
 .offcanvas #page:after {
@@ -446,7 +445,7 @@
 .menu p {
 	position: relative;
 	margin-left: 50px;
-	font-size: 24px;
+	font-size: 23px;
 	color: #606060;
 	top: 0;
 	left: 0;
