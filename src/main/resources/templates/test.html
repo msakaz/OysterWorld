@@ -1,25 +1,52 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<title></title>
-<link rel="stylesheet" th:href="@{/css/test.css}">
-<link rel="stylesheet" th:href="@{/css/bootstrap.css}" />
-</head>
+<div layout:decorator="layout">
+	<th:block layout:fragment="layout-content">
+		<link rel="stylesheet" th:href="@{/css/recruit.css}">
 
-<body>
-	<div>
-		<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1" style="background:#FF0000">
-			<div style="background:#0000FF">test1</div>
+		<div class="gtco-section gtco-services">
+			<div class="gtco-container main">
+				<div class="row gtco-heading">
+					<div class="col-xs-12 text-left">
+						<h2>採用情報</h2>
+						<img src="images/recruitImg.jpg" alt="" class="recruit-img">
+						<div class="col-xs-12 col-sm-12 col-md-6 box-position1">
+							<div class="wrap">
+								<div class="jumbotron frame1">
+									<div class="display-edit">
+										<h1 class="display-4">未経験からプロのエンジニアへ</h1>
+									</div>
+									<hr class="my-4">
+									<p>同じ目標を持った仲間たちと
+									<p>切磋琢磨して学べる。</p>
+									<p>仲間と共に将来活躍できるエンジニアへ。</p>
+									<div class="inexperienced-display">
+										<a th:href="@{/inexperienced}"><button class="button-one">
+												<span>未経験者採用情報</span>
+											</button></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-6 box-position2">
+							<div class="jumbotron frame2">
+								<div class="display-edit">
+									<h1>今までの経験＋新しい挑戦もできる</h1>
+									<hr class="my-4">
+									<p>今までの経験を活かして新しいことに挑戦してみませんか？</p>
+									<p>ゲーム開発、金融系システム開発など</p>
+									<p>あなたが挑戦をする機会を提供します。</p>
+									<div class="experienced-display">
+										<a th:href="@{/experienced}">
+											<button class="button-two">
+												<span>経験者採用情報</span>
+											</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="col-xs-12 col-sm-6 col-md-6" style="background:#00FF00">
-			<div style="background:#FF00FF">test2</div>
-		</div>
-	</div>
-
-  	<!-- jQuery -->
-	<script th:src="@{/js/jquery.min.js}"></script>
-	<!-- Bootstrap -->
-	<script th:src="@{/js/bootstrap.min.js}"></script>
-</body>
-</html>
+	</th:block>
+</div>

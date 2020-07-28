@@ -35,9 +35,7 @@
   font-size: 34px;
   color: #cccccc;
 }
-.feature-left > .copy {
-  padding-left: 30px;
-}
+
 .feature-left > .copy h3 {
   font-size: 14px;
   font-weight: bold;
@@ -45,12 +43,19 @@
   letter-spacing: .05em;
 }
 .feature-left > .copy p {
-  font-size: 12px !important;
+  font-size: 14px !important;
   line-height: 26px;
 }
-.feature-left > .copy p:last-child {
-  margin-bottom: 0;
-}
+
+
 .feature-left > .icon, .feature-left > .copy {
   display: table-cell;
+}
+
+.services h2 {
+	margin-left:10px;
+}
+
+.feature-left .copy {
+	padding:10px;
 }

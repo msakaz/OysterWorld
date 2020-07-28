@@ -188,20 +188,11 @@ background: linear-gradient(to right, rgb(90, 172, 230), transparent);
 }
 
 .row-pb-md {
-  padding-bottom: 4em !important;
+   padding-bottom: 38px !important;
 }
 
-.row-pb-sm {
-  padding-bottom: 2em !important;
-}
-
-.mt-md {
-  margin-top: 70px;
-}
 @media screen and (max-width: 768px) {
   .mt-md {
     margin-top: 10px;
   }
 }
-
-

@@ -36,3 +36,7 @@
 .details-button-position {
 	margin-bottom:40px;
 }
+
+.details-button-position a{
+	text-decoration: none;
+}

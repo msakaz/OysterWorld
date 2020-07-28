@@ -19,19 +19,36 @@
 	font-size: 25px;
 }
 
+.btn-position {
+	display: block;
+	text-align: center;
+	margin-top :-2px;
+}
+
+.btn-position img {
+	margin-top: -15px;
+}
+
+.btn1 a {
+	text-decoration: none;
+}
+
+.btn2 a {
+	text-decoration: none;
+}
+
 .btn1 {
 	background-color: rgba(242, 173, 46, 1);
 	border: 3px solid #fff;
 	box-shadow: 0px 1px 4px #fff inset;
-	align-items: center;
 	margin-left: -25px;
 	height: 45px;
 }
 
 .bt1 {
 	float: left;
-	margin-top: -2px;
-	margin-left: 35px;
+	margin-top: -3px;
+	margin-left: 55px;
 }
 
 .btn1:hover {
@@ -39,17 +56,9 @@
 	transition: all 0.5s;
 }
 
-.btn1 a {
+.btn1 span {
 	color: #fff;
-	display: block;
 	font-size: 30px;
-	text-decoration: none;
-}
-
-.btn1 img {
-	position: relative;
-	top: 5px;
-	right: -25px;
 }
 
 .btn2 {
@@ -63,8 +72,8 @@
 
 .bt2 {
 	float: left;
-	margin-top: -2px;
-	margin-left: 35px;
+	margin-top: -3px;
+	margin-left: 55px;
 }
 
 .btn2:hover {
@@ -72,22 +81,14 @@
 	transition: all 0.5s;
 }
 
-.btn2 a {
+.btn2 span {
 	color: #fff;
-	display: block;
 	font-size: 30px;
-	text-decoration: none;
-}
-
-.btn2 img {
-	position: relative;
-	top: 5px;
-	right: -25px;
 }
 
 .btn4 {
 	margin-top: 5px;
-	height: 354px;
+	height: 359px;
 	margin-left: -25px;
 }
 
@@ -113,9 +114,6 @@
 	.item {
 		margin-top: 5px;
 	}
-	.right {
-		margin-left: 0;
-	}
 	.btn1 {
 		margin-top: 5px;
 		margin-left: 0;
@@ -126,6 +124,6 @@
 	}
 	.btn4 {
 		margin-left: 0;
-		margin-bottom:5px;
+		margin-bottom: 5px;
 	}
 }
