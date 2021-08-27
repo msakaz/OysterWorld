@@ -1,4 +1,4 @@
-#page {
+/*#page {
 	position: relative;
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -6,7 +6,7 @@
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
-}
+}*/
 
 .offcanvas #page {
 	overflow: hidden;
@@ -26,12 +26,22 @@
 	content: "";
 }
 
+.oyster-icon img {
+	width: 140px;
+	top: 100px;
+
+}
+.name-icon img {
+	width: 140px;
+	height: 80px;
+}
 .gtco-nav {
-	position: relative;
+	position: fixed;
 	top: 0;
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	background-color: white;
 	padding: 0px 0px;
 	z-index: 1001;
 	font: normal normal 21px/1.2em 'メイリオ', meiryo, 'ヒラギノ角ゴ pro w3',
@@ -287,10 +297,6 @@
 	text-shadow: none !important;
 }
 
-#gtco-header .header-img {
-	margin-bottom: 30px;
-}
-
 #gtco-header .display-tc, #gtco-counter .display-tc, .gtco-cover .display-tc
 	{
 	display: table-cell !important;
@@ -433,8 +439,9 @@
 
 .header {
 	background-color: #FFF;
-	max-width: 1180px;
+	width: 100%;
 	height: 200px;
+	position: fixed;
 }
 
 .hwrapper {
@@ -457,27 +464,25 @@
 }
 
 .circle1 {
-	opacity: 0.8; width ="15％";
+	/*opacity: 0.8; width ="15％";*/
 	position: relative;
-	bottom: -20px;
-	right: 60px;
-	width: 42px;
+	bottom: -30px;
+	right: 150px;
+	width: 150px;
 }
 
-.circle2 {width ="15％";
+.circle2 {/*width ="15％";*/
 	position: relative;
 	bottom: -35px;
-	left: 18px;
+	left: 150px;
 	right: 0px;
-	width: 55px;
+	width: 150px;
 }
 
 .header-top {
-	background-color: #000;
+	/*background-color: #000;*/
 	height: 22px;
-	width: 200%;
-	margin: 0 -500%;
-	padding: 0 500%;
+
 }
 
 .gtco-nav-toggle {
@@ -667,3 +672,12 @@ blockquote p>cite {
 	top: 30px;
 	right: 20px;
 }
+
+.header-title{
+	top: 40px
+}
+
+.col-sm-2 oyster-icon{
+	top: 40px
+} 
+
